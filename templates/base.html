@@ -14,13 +14,15 @@
     
     
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
         
-        {% block content %}
-        <a class="fw-bolder fs-1 text-black" href="{% url 'home' %}">See all of our meals Card.click here!!!</a>
-       {% endblock content %}
-
-
+            {% block content %}
+            <a class="fw-bolder fs-1 text-black" href="{% url 'home' %}">See all of our meals Card.click here!!!</a>
+           {% endblock content %}
+    
+    
+        </div>
     </div>
 
     {% comment %} bs script  {% endcomment %}
